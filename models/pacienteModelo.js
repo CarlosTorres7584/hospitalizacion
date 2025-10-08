@@ -27,8 +27,11 @@ const pacienteSchema = new mongoose.Schema({
 
     cama:{
         type: Number
+    },
+    
+    domicilio:{
+        type: String
     }
-
 
 });
 
